@@ -1,0 +1,59 @@
+html { 
+  background: url(/images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ul {
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+li {
+	cursor:pointer;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:40px;
+	height:40px;
+	margin-left:15px;
+	list-style-type:none;
+	background-image: url(/images/icons.svg);
+	border-radius: 4px;
+}
+li:hover {
+	background-color:rgba(255,255,255,0.4);
+}
+li.facebook {
+	background-position: 579px 411px;
+}
+li.twitter {
+	background-position: 499px 409px;
+}
+li.linkedin {
+	background-position: 419px 210px;
+}
+li.google {
+	background-position: 420px 411px;
+}
+li.pinterest {
+	background-position: 579px 341px;
+}
+li.instagram {
+	background-position: 339px 152px;
+}
+div {
+	position:absolute;
+	right:30px;
+	bottom:20px;
+	color:white;
+	font-family: 'Poiret One', sans-serif;
+	font-size:4em;
+}
+div span {
+	font-weight:bold;
+	font-size:1.4em;
+}
